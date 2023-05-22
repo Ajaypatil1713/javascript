@@ -27,7 +27,6 @@ function gradeCalculation(marks)
 }
 console.log(`**********************************************************`);
 console.log(`                  Grade System Assignment`);
-// console.log(`*******************************************************`);
 console.log(`----------------------------------------------------------`);
 console.log(`                  Handling Valid Details`);
 console.log(`----------------------------------------------------------`);

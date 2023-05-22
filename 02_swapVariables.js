@@ -1,4 +1,3 @@
-
 console.log("/-------------------Before Swap-----------------/");
 console.log("/-----------------------------------------------/");
 var sweety = "Sweety";
@@ -8,7 +7,6 @@ console.log("");
 console.log("sweety =", sweety);
 console.log("cutie =", cutie);
 
-// Swapping the values
 var temp = sweety;
 sweety = cutie;
 cutie = temp;

@@ -7,8 +7,6 @@ function display() {
 }
 display();
 
-
-
 //Second Function
 function show() {
   console.log("Second funcion with no arguments and no return type");
@@ -25,8 +23,6 @@ function personDetails(firstName, lastName, collegeName) {
   console.log("College Name:", collegeName);
 }
 personDetails("Ajay", "Patil", "D.N.Clg");
-
-
 
 console.log("");
 console.log("/---------------Funtion swapVariableDude-------------/");
@@ -46,8 +42,6 @@ function swapVariableDude(a, b) {
 // Example usage
 swapVariableDude("virat", "anushka");
 swapVariableDude(1000, 2000);
-
-
 
 console.log("");
 console.log("/------------------Funtion addThreeValues------------/");
