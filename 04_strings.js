@@ -26,7 +26,6 @@ console.log("Index of o is: ", indexOfo);
 var replaceValue = greet.replace("Morning", "Afternoon");
 console.log("After replace: ", replaceValue);
 
-
 var firstName = "     Gajanan      ";
 var firstNameLength = firstName.length;
 console.log("Before trim length is: ", firstNameLength );

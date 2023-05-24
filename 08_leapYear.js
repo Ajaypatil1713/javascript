@@ -1,5 +1,4 @@
 function checkLeapYear(leapYear) {
-    // console.log(`Type of ${leapYear} :` ,typeof leapYear);
     if ( leapYear == null || leapYear == undefined || isNaN(leapYear) ) {
         console.log(`"${leapYear}" is not a valid year.`);
     } else {
@@ -19,18 +18,18 @@ checkLeapYear(1999);  //not leap year
 console.log(`-------------------------------------------------------------------------`);
 checkLeapYear(2022);  //not leap year
 console.log(`-------------------------------------------------------------------------`);
-checkLeapYear(NaN);   //not leap year
+checkLeapYear(1750);  //not leap year
 console.log(`-------------------------------------------------------------------------`);
 checkLeapYear(1945);  // not leap year
-console.log(`-------------------------------------------------------------------------`);
-checkLeapYear(null);  //not leap year
 console.log(`-------------------------------------------------------------------------`);
 checkLeapYear(1600);  //leap year
 console.log(`-------------------------------------------------------------------------`);
 checkLeapYear("Twenty Twenty"); // leap year
 console.log(`-------------------------------------------------------------------------`);
-checkLeapYear(1750);  //not leap year
+checkLeapYear(null);  //not leap year
 console.log(`-------------------------------------------------------------------------`);
 checkLeapYear(undefined);  //not leap year
+console.log(`-------------------------------------------------------------------------`);
+checkLeapYear(NaN);   //not leap year
 console.log(`-------------------------------------------------------------------------`);
 
