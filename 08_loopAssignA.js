@@ -35,8 +35,8 @@ console.log(`-------------------------------------------------------------------
 function sumOfCubes(n) {
     let total = 0;
     for (let i = 1; i <= n; i++) {
-      const cube = i * i * i;
-      total += cube;
+      let cube = i * i * i;
+      total = total + cube;
       console.log("Cube of", i, "is", cube);
     }
     return total;
