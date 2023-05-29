@@ -23,20 +23,30 @@ let thirdLastElement = arrayNumbers[arrayNumbers.length-3]
 console.log(`3. Third Last Element of Given Array : ${thirdLastElement}`);
 console.log(`--------------------------------------------------------------------------------------------------------------------------------`);
 
-for (const even in arrayNumbers)
+const evenNumbers = [];
+
+for (let index in arrayNumbers) 
 {
-    if(even % 2 == 0)
-    {
-        console.log(`4. Even Numbers in Given Array : ${arrayNumbers[even]}`);
-    }
-} 
-console.log(`--------------------------------------------------------------------------------------------------------------------------------`);
-for (const odd in arrayNumbers) {
-  if(odd % 2 !==0)
+  if (arrayNumbers[index] % 2 === 0) 
   {
-    console.log(`5. Odd Numbers in Given Array : ${arrayNumbers[odd]}`);
+    evenNumbers.push(arrayNumbers[index]);
   }
 }
+
+console.log("4. Even Numbers in Given Array : ", evenNumbers);
+console.log(`--------------------------------------------------------------------------------------------------------------------------------`);
+
+const oddNumbers = [];
+
+for (let index in arrayNumbers) 
+{
+  if (arrayNumbers[index] % 2 !== 0) 
+  {
+    oddNumbers.push(arrayNumbers[index]);
+  }
+}
+
+console.log("5. Odd Numbers in Given Array :", oddNumbers)
 console.log(`--------------------------------------------------------------------------------------------------------------------------------`);
 
 var sum=0;
