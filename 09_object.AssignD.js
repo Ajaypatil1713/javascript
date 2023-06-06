@@ -22,37 +22,33 @@ let professor = {
     },
     allDegrees: function() {
         let details1 = `${this.degrees.engineering}, ${this.degrees.phd}, ${this.degrees.msc}, ${this.degrees.bsc}, ${this.degrees.m_tech}`;
-        console.log(`Teacher Degrees are:`, details1);
-        console.log(`Total Degrees are:`, Object.keys(this.degrees).length);
+        return details1;
     }
 };
 console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
 console.log(`                                                                Object Assignment - Professor Portfolio`);
 console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
 
-professor.allDegrees();
+let abc = professor.allDegrees();
+console.log(`Total degrees are : `, abc);
+console.log(`Total Degrees are:`, Object.keys(professor.degrees).length)
+
 console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
-// Add new property totalExperience with value "14 years"
 professor.totalExperience = "14 years";
 console.log("Total Experience:", professor.totalExperience);
 console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
 
-console.log(`Before Update Salary : `);
-console.table(professor);
-// update existing sallary property with value 75000
+console.log(`Before Update Salary : `, professor);
+professor.salary = "75000";
 
-    professor.salary = "75000";
-
-console.log(`After Update Salary : `);
-console.table(professor);
+console.log(`After Update Salary : `,professor);
 console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
 
-//Add one new certificate in array --> "Oracle Certified"
-console.table(professor);
-professor.certificates.degreeArray.push("Oracle Certified");
-console.table(professor);
+console.log(`Before add New Element :`,professor.certificates.degreeArray);
+let addElement = professor.certificates.degreeArray.push("Oracle Certified");
+console.log(`After add New Element :`,professor.certificates.degreeArray);
+console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
 
-// log last element in array using length properties.
 let lastElement = professor.certificates.degreeArray[professor.certificates.degreeArray.length-1];
 console.log(`Last Elemenr of an Array : `,lastElement);
 console.log(`------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------`);
