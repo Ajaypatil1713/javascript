@@ -1,4 +1,3 @@
-
 let sbiBank = {
     bankName : "State Bank Of India",
     location : "Jalgaon",
@@ -6,7 +5,8 @@ let sbiBank = {
     ifsc : "SBIO26248",
     interestRate : 8.50,
     show: function() {
-        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", Interest Rate :"${this.interestRate}"`;
+        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", 
+        Interest Rate :"${this.interestRate}"`;
         console.log(`Bank Details are : ${details1}`);
     }
 };
@@ -17,7 +17,8 @@ let axisBank = {
     ifsc : "AXIS507896",
     interestRate : 14,
     show: function() {
-        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", Interest Rate :"${this.interestRate}"`;
+        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", 
+        Interest Rate :"${this.interestRate}"`;
         console.log(`Bank Details are : ${details1}`);
     }
 }
@@ -28,7 +29,8 @@ let hdfcBank = {
     ifsc : "HDFC08976",
     interestRate : 9.50,
     show: function() {
-        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", Interest Rate :"${this.interestRate}"`;
+        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", 
+        Interest Rate :"${this.interestRate}"`;
         console.log(`Bank Details are : ${details1}`);
     }
 }
@@ -39,11 +41,11 @@ let yesBank = {
     ifsc : "YES44523",
     interestRate : 9.30,
     show: function() {
-        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", Interest Rate :"${this.interestRate}"`;
+        let details1 = `Bank Nmae : "${this.bankName}", Location : "${this.location}",  Acoount No : "${this.accountNo}", IFSC Code : "${this.ifsc}", 
+        Interest Rate :"${this.interestRate}"`;
         console.log(`Bank Details are : ${details1}`);
     }
 }
-
 sbiBank.show();
 axisBank.show();
 hdfcBank.show();
