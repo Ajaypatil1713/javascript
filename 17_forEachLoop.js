@@ -1,8 +1,8 @@
 const arrayNums = [10, 5, 70, 90, 100, 30 ];
 
-arrayNums.forEach( ( currentValue, index, array ) => {
+arrayNums.forEach( ( currentValue, index ) => {
     console.log(`${currentValue}, ${index}`);
-    console.log(array);
+    // console.log(array);
 }  );
 
 console.log(" ======== Executing forEach() with only required arguments==========");
