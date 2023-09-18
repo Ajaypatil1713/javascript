@@ -1,5 +1,3 @@
-
-
 var greet = "Good Morning mate, How are you";
 var resultSplit = greet.split(" ");
 console.log(resultSplit);

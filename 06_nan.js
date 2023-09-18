@@ -19,3 +19,4 @@ console.log(`${result}`);
 var num5 = "100";
 var result = +num5;
 console.log(`Result is ${result} and it's type is: ${typeof result}`);
+

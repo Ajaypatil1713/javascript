@@ -85,20 +85,6 @@ console.log(`greater than Result ==> ${result}`);
 
 
 
- function squareOfWordLength(str) {
-    var len = ;
-
- }
- squareOfWordLength("abc");
- squareOfWordLength("Google chrome");
-
- function abc(){
-    var str = "I am Angular Developer";
-    var lengthStr;
-    
- }
-
-
 
 
 

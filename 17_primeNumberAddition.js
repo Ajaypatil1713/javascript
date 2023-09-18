@@ -1,4 +1,4 @@
-
+//prime number means the number is divisible by ownself and the reminder getting zero.
 const arrayNum = [2, 19, 123, ,34, 56, 78, 100];
 const arrayTransformed = [];
 arrayNum.forEach((element) =>{
@@ -18,3 +18,5 @@ arrayNum.forEach((element) =>{
 })
 console.log(`Original Array : ${arrayNum}`);
 console.log(`Prime number array : => ${arrayTransformed}`);
+// Original Array : 2,19,123,,34,56,78,100
+// Prime number array : => 2,19

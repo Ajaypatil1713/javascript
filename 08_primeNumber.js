@@ -17,9 +17,7 @@ function primeNum(num) {
   }
 }
 
-primeNum(4);
-primeNum(5);
-primeNum(9);
+
 primeNum(11);
 
 
